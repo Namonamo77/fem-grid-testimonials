@@ -51,6 +51,7 @@ img {
     border-radius: 1em;
     padding: 2em;
     margin-bottom: 2em;
+    box-shadow: 0 0 22px rgba(5, 5, 5, .1);
 }
 
 .violet {
@@ -94,6 +95,17 @@ h3 {
 .description-text {
     opacity: .7;
 }
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    padding-bottom: 2em;
+    color: var(--prim-Verydark-blackish);
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+    text-decoration: none;
+  }
 
 @media (min-width: 800px){
     body {
